@@ -1,0 +1,16 @@
+/* Header and Footer */
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+  }
+   
+  li a {
+    display: block;   /* d.m.th mos me kan ne nje rresht edhe elemente tjera(p.sh inline elemente),d/m/th e nxan vet je rresht,elementi tjeret vendoset poshte tij */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+    font-family: 'Dancing Script',sans-serif;
+  }
+  
