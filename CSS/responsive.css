@@ -140,4 +140,20 @@
   .grid-container{
     grid-template-rows: 250px;
   }
+ .flipHorizontal,.flipVertical,.rotateLeft,.rotateRight,.resizeImg,.greyscaleImg{ 
+    align-items: center;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 16px;
+    transition: none; 
+            }
+.flipHorizontal:hover,.flipVertical:hover,.rotateLeft:hover,.rotateRight:hover,.resizeImg:hover,.greyscaleImg:hover  {
+    box-shadow: none;
+    transform: none;
+            }  
 }
